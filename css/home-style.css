@@ -1,19 +1,14 @@
 body{
     position: relative;
 }
-main{
-    align-items: center;
-}
+
 
 .banner-top {
-    height: 300px;
-    width: auto;
+    width: 100%;
+    height: auto;
     background-image:  url('../img/gradient-white-black-top.svg'); /* Ruta de tu imagen */
-    background-size: contain;
-    background-repeat: repeat-x; /* Repetir la imagen solo horizontalmente */
+    background-size: cover;
     position: relative;
-    bottom: 100%;
-    animation: moverBanner 5s linear infinite; /* Duración de la animación y tipo de animación */
 }
 .content{
     display: flex;
@@ -22,11 +17,16 @@ main{
     margin: auto;
 }
 .title-home{
-    position: relative;
-    justify-content: center;
+    max-height: 10%;
+    position: absolute ;
+    padding: 2em;
 }
 
 .oracle-alura-logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2em;
 
 }
 
@@ -38,7 +38,7 @@ main{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 6em;
+  font-size: 7em;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
