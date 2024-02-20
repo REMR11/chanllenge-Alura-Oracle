@@ -1,0 +1,53 @@
+body{
+    position: relative;
+}
+main{
+    align-items: center;
+}
+
+.banner-top {
+    height: 300px;
+    width: auto;
+    background-image:  url('../img/gradient-white-black-top.svg'); /* Ruta de tu imagen */
+    background-size: contain;
+    background-repeat: repeat-x; /* Repetir la imagen solo horizontalmente */
+    position: relative;
+    bottom: 100%;
+    animation: moverBanner 5s linear infinite; /* Duración de la animación y tipo de animación */
+}
+.content{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+.title-home{
+    position: relative;
+    justify-content: center;
+}
+
+.oracle-alura-logo{
+
+}
+
+.title-text{
+    text-align: center;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 6em;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.banner-bottom{
+    height: 300px;
+    width: auto;
+    background-image:  url('../img/gradient-white-black-bottom.svg'); /* Ruta de tu imagen */
+    background-size: contain;
+    background-repeat: repeat-x; /* Repetir la imagen solo horizontalmente */
+    animation: moverBanner 5s linear infinite; /* Duración de la animación y tipo de animación */
+}
