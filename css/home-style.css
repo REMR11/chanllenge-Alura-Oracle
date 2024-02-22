@@ -1,53 +1,63 @@
-body{
-    position: relative;
+body {
+    max-width: 640px;
+
 }
 
+#visual-top {
+    background-image: url('../img/gradient-white-black-top.svg');
 
-.banner-top {
+}
+
+#visual-bottom {
+    background-image: url('../img/gradient-white-black-bottom.svg');
+}
+
+#visual-top,
+#visual-bottom {
     width: 100%;
-    height: auto;
-    background-image:  url('../img/gradient-white-black-top.svg'); /* Ruta de tu imagen */
+    height: 200px;
     background-size: cover;
-    position: relative;
 }
-.content{
-    display: flex;
+
+.content {
+    position: relative;
+    max-width:100%;
     justify-content: center;
-    max-width: 80%;
+    
     margin: auto;
 }
+
 .title-home{
-    max-height: 10%;
-    position: absolute ;
-    padding: 2em;
+    align-items: end;
 }
-
-.oracle-alura-logo{
+#Logo-One {
     position: absolute;
-    top: 0;
     right: 0;
-    padding-right: 2em;
-
+    top: 0;
+    background-image: url("../img/Logo-One.svg");
+    background-repeat: no-repeat;
+    width: 235px;
+    height: auto;
+    transform: translate(-10px) scale(0.4);
+    
 }
 
-.title-text{
+.title-text {
     text-align: center;
+    padding:26px 0;
 }
 
 .inter-bold {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-size: 7em;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3em;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
 }
-.banner-bottom{
-    height: 300px;
-    width: auto;
-    background-image:  url('../img/gradient-white-black-bottom.svg'); /* Ruta de tu imagen */
-    background-size: contain;
-    background-repeat: repeat-x; /* Repetir la imagen solo horizontalmente */
-    animation: moverBanner 5s linear infinite; /* Duración de la animación y tipo de animación */
+
+.home-img{
+    display: flex;
+    width: 522px;
 }
