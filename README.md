@@ -26,4 +26,4 @@ link : https://remr11.github.io/chanllenge-Alura-Oracle/
 
 ## Feedback
 
-¿Quieres darme feedback?, por favor contactamen remr11@outlook.com
+¿Quieres darme feedback?, por favor contactame remr11@outlook.com
