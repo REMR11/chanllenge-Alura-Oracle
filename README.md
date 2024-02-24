@@ -1,5 +1,5 @@
 
-<a href="https://www.aluracursos.com/"><img src="../chanllenge-Alura-Oracle/img/Logo-One.svg" width="500px" />
+<a href="https://www.aluracursos.com/"><img src="../chanllenge-Alura-Oracle/img/Logo-One.svg" width="400px" />
 <img src="../chanllenge-Alura-Oracle/img/alura-latam-oracle-logo.png" width="90px" align="right"></a>
 
  <h1 align="center">chanllenge-Alura-Oracle</h1>
