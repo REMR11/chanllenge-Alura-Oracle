@@ -1,6 +1,6 @@
 
-<a href="https://www.aluracursos.com/"><img src="../chanllenge-Alura-Oracle/img/Logo-One.svg" width="400px" />
-<img src="../chanllenge-Alura-Oracle/img/alura-latam-oracle-logo.png" width="90px" align="right"></a>
+<a href="https://www.aluracursos.com/"><img src="img/Logo-One.svg" width="800px"/>
+<img src="img/alura-latam-oracle-logo.png" width="130px" align="right"></a>
 
  <h1 align="center">chanllenge-Alura-Oracle</h1>
  <p align=""><i>Proyecto que pone en practica lo aprendido en le primer modulo de <strong> Oracle next Education</strong></i></p>
@@ -17,7 +17,7 @@
  Buenas practicas 
  ## website
 link : https://remr11.github.io/chanllenge-Alura-Oracle/ 
-<a href="https://remr11.github.io/chanllenge-Alura-Oracle/"><img src="../chanllenge-Alura-Oracle/img/pre-release-proyect.png"/><a>
+<a href="https://remr11.github.io/chanllenge-Alura-Oracle/"><img src="img/pre-release-proyect.png"/><a>
 
 
 ## Author
