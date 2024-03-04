@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Challenge de Alura ONE. Trata sobre un encriptador con la opcion de desencriptar">
+  <meta property="og:title" content="Challenge Encriptador G6 Alura ONE">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/encriptador-style.css">
+
+  <title>Encriptador - Alura Challenge</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/alura-latam-oracle-logo.png" type="image/svg+xml" alt="Icono de ALURA">
+    
+    </div>
+  </header>
+  <main>
+    <section class="section-text">
+      <form id="section-text__form">
+        <textArea id="text-area" placeholder="Ingrese el texto aquí" required name="textToEncrypt"></textArea>
+
+        <div class="section-text__form-info">
+          <span>Solo letras minúsculas y sin acentos</span>
+        </div>
+
+        <div class="section-text__form-buttons">
+          <button type="submit" class="section-text__form-button-encrypt" id="button-encrypt">Encriptar</button>
+          <button type="button" class="section-text__form-button-decrypt" disabled
+            id="button-decrypt">Desencriptar</button>
+        </div>
+        <div class="section-text__form__borrar">
+          <button type="reset" class="section-text__form-button hide" id="button-reset">Borrar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section-answer">
+      <section id="section-answer-info">
+        <h1 class="section-answer-info__title">Ningún mensaje fue encontrado</h1>
+        <span class="section-answer-info__text">Ingresa el texto que deseas encriptar o desencriptar</span>
+      </section>
+      <textarea readonly id="answer-codified" placeholder="Ningún mensaje fue encontrado" class="hide"></textarea>
+      <button type="button" class="section-text__form-button-decrypt hide" id="button-copy">Copiar</button>
+    </section>
+  </main>
+  <footer>
+   
+</body>
+
+</html>
